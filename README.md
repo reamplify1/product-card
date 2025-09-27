@@ -1,2 +1,1 @@
-# product-card
-hmwrk 1 
+# readme first homework task

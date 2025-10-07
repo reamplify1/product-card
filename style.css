@@ -14,10 +14,6 @@
   --bg-color: #f7f7fa;
 }
 
-.main-container {
-  /* position: relative; */
-}
-
 .background-image {
   position: absolute;
   top: 0;
@@ -26,9 +22,6 @@
 }
 
 .title {
-  /* position: relative; 
-  z-index: 10;  */
-  /* margin: 0 auto; */
   margin-top: 220px;
   text-align: center;
   font-weight: 400;
@@ -77,6 +70,7 @@
   margin-top: 5px;
   margin-bottom: 25px;
   list-style: none;
+
   li::before {
     margin-top: 5px;
     content: "";

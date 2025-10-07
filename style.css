@@ -32,6 +32,7 @@
 .cards-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 45px;
   margin: 110px 85px 116px 85px;

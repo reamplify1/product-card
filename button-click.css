@@ -1,0 +1,39 @@
+.buttons-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #515076, #6a679e);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(81, 80, 118, 0.4);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 20px rgba(81, 80, 118, 0.6);
+  background: linear-gradient(135deg, #5c5a86, #7c79b1);
+}
+
+.button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(81, 80, 118, 0.5);
+  background: linear-gradient(135deg, #6e56cf, #b47aff);
+}
+
+#click-me-button.toggled {
+  background: linear-gradient(135deg, #f4c542, #ff8c00);
+}
+
+#click-me-button.toggled:hover {
+  background: linear-gradient(135deg, #ffc107, #ff5722);
+}

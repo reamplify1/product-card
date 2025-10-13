@@ -4,8 +4,7 @@ const productCards = document.querySelectorAll(".card-container");
 const changeColorAllButton = document.querySelector(
   "#change-color-all-cards-button"
 );
-const mintGreenColorHash = "#E8F5E9"; // цвет для всех карточек
-const powderBlueColorHash = "#B0E0E6"; //цвет для первой карточки
+const mintGreenColorHash = "#E8F5E9";
 
 changeColorAllButton.addEventListener("click", () => {
   productCards.forEach(
@@ -14,6 +13,7 @@ changeColorAllButton.addEventListener("click", () => {
 });
 
 // Покраска первой карточки
+const powderBlueColorHash = "#B0E0E6";
 
 const firstProductCard = document.querySelector(".card-container");
 const changeColorFirstButton = document.querySelector(
@@ -50,8 +50,8 @@ function outputConsoleLog(message) {
 
 // кнопка, меняющая цвет
 
-const toggleColorButton = document.querySelector("#toggle-color-button");
+const clickMeButton = document.querySelector("#click-me-button");
 
-toggleColorButton.addEventListener("click", () =>
-  toggleColorButton.classList.toggle("active")
+clickMeButton.addEventListener("click", () =>
+  clickMeButton.classList.toggle("toggled")
 );

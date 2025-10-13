@@ -30,10 +30,10 @@
   background: linear-gradient(135deg, #6e56cf, #b47aff);
 }
 
-#click-me-button.toggled {
+#toggle-color-button.button-orange {
   background: linear-gradient(135deg, #f4c542, #ff8c00);
 }
 
-#click-me-button.toggled:hover {
+#toggle-color-button.button-orange:hover {
   background: linear-gradient(135deg, #ffc107, #ff5722);
 }

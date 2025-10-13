@@ -50,8 +50,8 @@ function outputConsoleLog(message) {
 
 // кнопка, меняющая цвет
 
-const clickMeButton = document.querySelector("#click-me-button");
+const toggleColorButton = document.querySelector("#toggle-color-button");
 
-clickMeButton.addEventListener("click", () =>
-  clickMeButton.classList.toggle("toggled")
+toggleColorButton.addEventListener("click", () =>
+  toggleColorButton.classList.toggle("button-orange")
 );
